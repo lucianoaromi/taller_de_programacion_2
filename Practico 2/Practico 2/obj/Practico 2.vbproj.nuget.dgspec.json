@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luciano\\source\\repos\\Practico 2\\Practico 2\\Practico 2.vbproj": {}
+    "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico 2\\Practico 2\\Practico 2.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Luciano\\source\\repos\\Practico 2\\Practico 2\\Practico 2.vbproj": {
+    "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico 2\\Practico 2\\Practico 2.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luciano\\source\\repos\\Practico 2\\Practico 2\\Practico 2.vbproj",
+        "projectUniqueName": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico 2\\Practico 2\\Practico 2.vbproj",
         "projectName": "Practico 2",
-        "projectPath": "C:\\Users\\Luciano\\source\\repos\\Practico 2\\Practico 2\\Practico 2.vbproj",
+        "projectPath": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico 2\\Practico 2\\Practico 2.vbproj",
         "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luciano\\source\\repos\\Practico 2\\Practico 2\\obj\\",
+        "outputPath": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico 2\\Practico 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
