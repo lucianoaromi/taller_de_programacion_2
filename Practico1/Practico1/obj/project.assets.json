@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luciano\\source\\repos\\Practico1\\Practico1\\Practico1.vbproj",
+      "projectUniqueName": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj",
       "projectName": "Practico1",
-      "projectPath": "C:\\Users\\Luciano\\source\\repos\\Practico1\\Practico1\\Practico1.vbproj",
+      "projectPath": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj",
       "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luciano\\source\\repos\\Practico1\\Practico1\\obj\\",
+      "outputPath": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

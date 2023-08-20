@@ -29,6 +29,6 @@
             If MsgBox("¿Desea salir de la aplicacion?", vbQuestion + vbYesNo, "Salir") = vbYes Then
                 Me.Close()
             End If
-        End If
+        End If 'comente
     End Sub
 End Class
