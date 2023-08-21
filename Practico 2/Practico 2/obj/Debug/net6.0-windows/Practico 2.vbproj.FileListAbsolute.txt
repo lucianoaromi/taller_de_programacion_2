@@ -15,20 +15,3 @@ C:\Users\Luciano\source\repos\Practico 2\Practico 2\obj\Debug\net6.0-windows\Pra
 C:\Users\Luciano\source\repos\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.genruntimeconfig.cache
 C:\Users\Luciano\source\repos\Practico 2\Practico 2\obj\Debug\net6.0-windows\ref\Practico 2.dll
 C:\Users\Luciano\source\repos\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico_2.Resources.resources
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\bin\Debug\net6.0-windows\Practico 2.exe
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\bin\Debug\net6.0-windows\Practico 2.deps.json
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\bin\Debug\net6.0-windows\Practico 2.runtimeconfig.json
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\bin\Debug\net6.0-windows\Practico 2.dll
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\bin\Debug\net6.0-windows\Practico 2.pdb
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico_2.Form1.resources
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico_2.Resources.resources
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.vbproj.GenerateResource.cache
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.AssemblyInfoInputs.cache
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.AssemblyInfo.vb
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.vbproj.CoreCompileInputs.cache
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.dll
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\refint\Practico 2.dll
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.pdb
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.genruntimeconfig.cache
-C:\Users\Luciano\Documents\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\ref\Practico 2.dll
