@@ -97,7 +97,7 @@ Public Class Form1
 
     Private Sub BSalir_Click(sender As Object, e As EventArgs) Handles BSalir.Click
         If MsgBox("¿Desea salir de la aplicacion?", vbQuestion + vbYesNo, "Salir") = vbYes Then
-            Me.Close()
+            Me.Close()  'Este comentario desde internet'
         End If
     End Sub
 End Class
