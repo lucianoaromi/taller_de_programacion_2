@@ -32,3 +32,4 @@ C:\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-window
 C:\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.pdb
 C:\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico 2.genruntimeconfig.cache
 C:\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\ref\Practico 2.dll
+C:\GitHub\taller_de_programacion_2\Practico 2\Practico 2\obj\Debug\net6.0-windows\Practico_2.MDIParent1.resources
