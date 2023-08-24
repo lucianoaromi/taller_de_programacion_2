@@ -83,7 +83,7 @@ Public Class Form1
         If RBVaron.Checked Then
             If RBVaron.Checked Then
                 PictureBox1.BackgroundImageLayout = ImageLayout.Center
-                PictureBox1.BackgroundImage = Image.FromFile("C:\Users\Luciano\source\repos\Practico 2\Practico 2\Imagenes\varon.png")
+                PictureBox1.BackgroundImage = Image.FromFile("C:\GitHub\taller_de_programacion_2\Practico 2\Practico 2\Imagenes\varon.png")
             End If
         End If
     End Sub
@@ -91,7 +91,7 @@ Public Class Form1
     Private Sub RBMujer_CheckedChanged(sender As Object, e As EventArgs) Handles RBMujer.CheckedChanged
         If RBMujer.Checked Then
             PictureBox1.BackgroundImageLayout = ImageLayout.Center
-            PictureBox1.BackgroundImage = Image.FromFile("C:\Users\Luciano\source\repos\Practico 2\Practico 2\Imagenes\mujer.png")
+            PictureBox1.BackgroundImage = Image.FromFile("C:\GitHub\taller_de_programacion_2\Practico 2\Practico 2\Imagenes\mujer.png")
         End If
     End Sub
 
