@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj": {}
+    "C:\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj": {
+    "C:\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj",
+        "projectUniqueName": "C:\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj",
         "projectName": "Practico1",
-        "projectPath": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj",
-        "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luciano\\Documents\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\obj\\",
+        "projectPath": "C:\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\Practico1.vbproj",
+        "packagesPath": "C:\\Users\\lucha\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\taller_de_programacion_2\\Practico1\\Practico1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Luciano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
