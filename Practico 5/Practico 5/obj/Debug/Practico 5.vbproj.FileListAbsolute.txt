@@ -1,0 +1,12 @@
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\bin\Debug\Practico 5.exe.config
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\bin\Debug\Practico 5.exe
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\bin\Debug\Practico 5.pdb
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\bin\Debug\Practico 5.xml
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico 5.vbproj.AssemblyReference.cache
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico_5.Form1.resources
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico_5.Resources.resources
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico 5.vbproj.GenerateResource.cache
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico 5.vbproj.CoreCompileInputs.cache
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico 5.exe
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico 5.xml
+C:\GitHub\taller_de_programacion_2\Practico 5\Practico 5\obj\Debug\Practico 5.pdb

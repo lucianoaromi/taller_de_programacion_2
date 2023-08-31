@@ -1,0 +1,12 @@
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\bin\Debug\Practico 4.exe.config
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\bin\Debug\Practico 4.exe
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\bin\Debug\Practico 4.pdb
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\bin\Debug\Practico 4.xml
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico 4.vbproj.AssemblyReference.cache
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico_4.Form1.resources
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico_4.Resources.resources
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico 4.vbproj.GenerateResource.cache
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico 4.vbproj.CoreCompileInputs.cache
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico 4.exe
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico 4.xml
+C:\GitHub\taller_de_programacion_2\Practico 4\Practico 4\obj\Debug\Practico 4.pdb
