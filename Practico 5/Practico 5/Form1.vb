@@ -2,10 +2,14 @@
 Imports System.IO
 
 
+
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        DataGridView1.Rows.Clear() ' Limpia las filas existentes al cargar el formulario
+
+        DataGridView1.DefaultCellStyle.ForeColor = Color.Black
+
     End Sub
+
 
     Private Sub GuardarImagen_Click(sender As Object, e As EventArgs) Handles GuardarImagen.Click
         ' Abre un cuadro de diálogo para seleccionar una imagen.
@@ -17,8 +21,10 @@ Public Class Form1
             Dim imagePath As String = openFileDialog.FileName
 
             ' Muestra la imagen en el PictureBox.
+            Dim img As Image = Image.FromFile(imagePath)
             PictureBox1.Image = Image.FromFile(imagePath)
-
+            PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+            PictureBox1.Image = img
             ' Muestra la ruta de la imagen en el TextBox.
             TRutaImagen.Text = imagePath
         End If
