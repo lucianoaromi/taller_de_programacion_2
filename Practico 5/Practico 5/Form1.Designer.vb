@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TNombre = New System.Windows.Forms.TextBox()
         Me.TApellido = New System.Windows.Forms.TextBox()
         Me.DFechaNacimiento = New System.Windows.Forms.DateTimePicker()
@@ -57,14 +57,14 @@ Partial Class Form1
         '
         Me.TNombre.Location = New System.Drawing.Point(257, 44)
         Me.TNombre.Name = "TNombre"
-        Me.TNombre.Size = New System.Drawing.Size(226, 29)
+        Me.TNombre.Size = New System.Drawing.Size(226, 34)
         Me.TNombre.TabIndex = 0
         '
         'TApellido
         '
         Me.TApellido.Location = New System.Drawing.Point(257, 96)
         Me.TApellido.Name = "TApellido"
-        Me.TApellido.Size = New System.Drawing.Size(226, 29)
+        Me.TApellido.Size = New System.Drawing.Size(226, 34)
         Me.TApellido.TabIndex = 1
         '
         'DFechaNacimiento
@@ -72,7 +72,7 @@ Partial Class Form1
         Me.DFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DFechaNacimiento.Location = New System.Drawing.Point(336, 140)
         Me.DFechaNacimiento.Name = "DFechaNacimiento"
-        Me.DFechaNacimiento.Size = New System.Drawing.Size(108, 29)
+        Me.DFechaNacimiento.Size = New System.Drawing.Size(108, 34)
         Me.DFechaNacimiento.TabIndex = 2
         '
         'RadioButtonHombre
@@ -81,7 +81,7 @@ Partial Class Form1
         Me.RadioButtonHombre.BackColor = System.Drawing.SystemColors.Desktop
         Me.RadioButtonHombre.Location = New System.Drawing.Point(319, 180)
         Me.RadioButtonHombre.Name = "RadioButtonHombre"
-        Me.RadioButtonHombre.Size = New System.Drawing.Size(76, 25)
+        Me.RadioButtonHombre.Size = New System.Drawing.Size(93, 30)
         Me.RadioButtonHombre.TabIndex = 3
         Me.RadioButtonHombre.TabStop = True
         Me.RadioButtonHombre.Text = "Hombre"
@@ -93,7 +93,7 @@ Partial Class Form1
         Me.RadioButtonMujer.BackColor = System.Drawing.SystemColors.Desktop
         Me.RadioButtonMujer.Location = New System.Drawing.Point(400, 180)
         Me.RadioButtonMujer.Name = "RadioButtonMujer"
-        Me.RadioButtonMujer.Size = New System.Drawing.Size(62, 25)
+        Me.RadioButtonMujer.Size = New System.Drawing.Size(77, 30)
         Me.RadioButtonMujer.TabIndex = 4
         Me.RadioButtonMujer.TabStop = True
         Me.RadioButtonMujer.Text = "Mujer"
@@ -103,7 +103,7 @@ Partial Class Form1
         '
         Me.TSaldo.Location = New System.Drawing.Point(257, 215)
         Me.TSaldo.Name = "TSaldo"
-        Me.TSaldo.Size = New System.Drawing.Size(226, 29)
+        Me.TSaldo.Size = New System.Drawing.Size(226, 34)
         Me.TSaldo.TabIndex = 5
         '
         'OpenFileDialog1
@@ -126,7 +126,7 @@ Partial Class Form1
         Me.TRutaImagen.Enabled = False
         Me.TRutaImagen.Location = New System.Drawing.Point(257, 260)
         Me.TRutaImagen.Name = "TRutaImagen"
-        Me.TRutaImagen.Size = New System.Drawing.Size(226, 29)
+        Me.TRutaImagen.Size = New System.Drawing.Size(226, 34)
         Me.TRutaImagen.TabIndex = 8
         '
         'Label1
@@ -136,7 +136,7 @@ Partial Class Form1
         Me.Label1.ForeColor = System.Drawing.Color.Transparent
         Me.Label1.Location = New System.Drawing.Point(185, 47)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 21)
+        Me.Label1.Size = New System.Drawing.Size(76, 26)
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Nombre:"
         Me.Label1.UseMnemonic = False
@@ -147,7 +147,7 @@ Partial Class Form1
         Me.Label2.BackColor = System.Drawing.SystemColors.Desktop
         Me.Label2.Location = New System.Drawing.Point(189, 103)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 21)
+        Me.Label2.Size = New System.Drawing.Size(76, 26)
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "Apellido:"
         '
@@ -158,7 +158,7 @@ Partial Class Form1
         Me.Label3.Font = New System.Drawing.Font("Segoe Print", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(189, 144)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(138, 21)
+        Me.Label3.Size = New System.Drawing.Size(172, 26)
         Me.Label3.TabIndex = 12
         Me.Label3.Text = "Fecha de nacimiento:"
         '
@@ -182,56 +182,64 @@ Partial Class Form1
         Me.Label4.BackColor = System.Drawing.SystemColors.Desktop
         Me.Label4.Location = New System.Drawing.Point(195, 218)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(47, 21)
+        Me.Label4.Size = New System.Drawing.Size(57, 26)
         Me.Label4.TabIndex = 14
         Me.Label4.Text = "Saldo:"
         '
         'DataGridView1
         '
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle2
+        Me.DataGridView1.AllowUserToAddRows = False
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Apellido, Me.Nombre, Me.FechaNacimiento, Me.Sexo, Me.Eliminar, Me.Saldo, Me.Imagen, Me.Ruta})
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.DataGridView1.Location = New System.Drawing.Point(92, 372)
         Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.Size = New System.Drawing.Size(675, 150)
         Me.DataGridView1.TabIndex = 15
         '
         'Apellido
         '
         Me.Apellido.HeaderText = "Apellido"
+        Me.Apellido.MinimumWidth = 6
         Me.Apellido.Name = "Apellido"
         Me.Apellido.Width = 80
         '
         'Nombre
         '
         Me.Nombre.HeaderText = "Nombre"
+        Me.Nombre.MinimumWidth = 6
         Me.Nombre.Name = "Nombre"
         Me.Nombre.Width = 80
         '
         'FechaNacimiento
         '
         Me.FechaNacimiento.HeaderText = "Fecha Nacimiento"
+        Me.FechaNacimiento.MinimumWidth = 6
         Me.FechaNacimiento.Name = "FechaNacimiento"
         Me.FechaNacimiento.Width = 80
         '
         'Sexo
         '
         Me.Sexo.HeaderText = "Sexo"
+        Me.Sexo.MinimumWidth = 6
         Me.Sexo.Name = "Sexo"
         Me.Sexo.Width = 80
         '
         'Eliminar
         '
         Me.Eliminar.HeaderText = "Eliminar"
+        Me.Eliminar.MinimumWidth = 6
         Me.Eliminar.Name = "Eliminar"
         Me.Eliminar.Width = 80
         '
         'Saldo
         '
         Me.Saldo.HeaderText = "Saldo"
+        Me.Saldo.MinimumWidth = 6
         Me.Saldo.Name = "Saldo"
         Me.Saldo.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Saldo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
@@ -240,12 +248,14 @@ Partial Class Form1
         'Imagen
         '
         Me.Imagen.HeaderText = "Foto"
+        Me.Imagen.MinimumWidth = 6
         Me.Imagen.Name = "Imagen"
         Me.Imagen.Width = 70
         '
         'Ruta
         '
         Me.Ruta.HeaderText = "Ruta"
+        Me.Ruta.MinimumWidth = 6
         Me.Ruta.Name = "Ruta"
         Me.Ruta.Width = 80
         '
