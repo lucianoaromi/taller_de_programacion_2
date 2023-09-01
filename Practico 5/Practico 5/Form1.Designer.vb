@@ -22,7 +22,8 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TNombre = New System.Windows.Forms.TextBox()
         Me.TApellido = New System.Windows.Forms.TextBox()
         Me.DFechaNacimiento = New System.Windows.Forms.DateTimePicker()
@@ -54,14 +55,14 @@ Partial Class Form1
         '
         'TNombre
         '
-        Me.TNombre.Location = New System.Drawing.Point(257, 58)
+        Me.TNombre.Location = New System.Drawing.Point(257, 44)
         Me.TNombre.Name = "TNombre"
         Me.TNombre.Size = New System.Drawing.Size(226, 29)
         Me.TNombre.TabIndex = 0
         '
         'TApellido
         '
-        Me.TApellido.Location = New System.Drawing.Point(257, 110)
+        Me.TApellido.Location = New System.Drawing.Point(257, 96)
         Me.TApellido.Name = "TApellido"
         Me.TApellido.Size = New System.Drawing.Size(226, 29)
         Me.TApellido.TabIndex = 1
@@ -69,7 +70,7 @@ Partial Class Form1
         'DFechaNacimiento
         '
         Me.DFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DFechaNacimiento.Location = New System.Drawing.Point(336, 154)
+        Me.DFechaNacimiento.Location = New System.Drawing.Point(336, 140)
         Me.DFechaNacimiento.Name = "DFechaNacimiento"
         Me.DFechaNacimiento.Size = New System.Drawing.Size(108, 29)
         Me.DFechaNacimiento.TabIndex = 2
@@ -78,7 +79,7 @@ Partial Class Form1
         '
         Me.RadioButtonHombre.AutoSize = True
         Me.RadioButtonHombre.BackColor = System.Drawing.SystemColors.Desktop
-        Me.RadioButtonHombre.Location = New System.Drawing.Point(319, 194)
+        Me.RadioButtonHombre.Location = New System.Drawing.Point(319, 180)
         Me.RadioButtonHombre.Name = "RadioButtonHombre"
         Me.RadioButtonHombre.Size = New System.Drawing.Size(76, 25)
         Me.RadioButtonHombre.TabIndex = 3
@@ -90,7 +91,7 @@ Partial Class Form1
         '
         Me.RadioButtonMujer.AutoSize = True
         Me.RadioButtonMujer.BackColor = System.Drawing.SystemColors.Desktop
-        Me.RadioButtonMujer.Location = New System.Drawing.Point(400, 194)
+        Me.RadioButtonMujer.Location = New System.Drawing.Point(400, 180)
         Me.RadioButtonMujer.Name = "RadioButtonMujer"
         Me.RadioButtonMujer.Size = New System.Drawing.Size(62, 25)
         Me.RadioButtonMujer.TabIndex = 4
@@ -100,7 +101,7 @@ Partial Class Form1
         '
         'TSaldo
         '
-        Me.TSaldo.Location = New System.Drawing.Point(257, 229)
+        Me.TSaldo.Location = New System.Drawing.Point(257, 215)
         Me.TSaldo.Name = "TSaldo"
         Me.TSaldo.Size = New System.Drawing.Size(226, 29)
         Me.TSaldo.TabIndex = 5
@@ -111,8 +112,9 @@ Partial Class Form1
         '
         'GuardarImagen
         '
-        Me.GuardarImagen.BackColor = System.Drawing.SystemColors.Desktop
-        Me.GuardarImagen.Location = New System.Drawing.Point(183, 272)
+        Me.GuardarImagen.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.GuardarImagen.ForeColor = System.Drawing.Color.Black
+        Me.GuardarImagen.Location = New System.Drawing.Point(183, 258)
         Me.GuardarImagen.Name = "GuardarImagen"
         Me.GuardarImagen.Size = New System.Drawing.Size(62, 32)
         Me.GuardarImagen.TabIndex = 7
@@ -122,7 +124,7 @@ Partial Class Form1
         'TRutaImagen
         '
         Me.TRutaImagen.Enabled = False
-        Me.TRutaImagen.Location = New System.Drawing.Point(257, 274)
+        Me.TRutaImagen.Location = New System.Drawing.Point(257, 260)
         Me.TRutaImagen.Name = "TRutaImagen"
         Me.TRutaImagen.Size = New System.Drawing.Size(226, 29)
         Me.TRutaImagen.TabIndex = 8
@@ -132,7 +134,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.Desktop
         Me.Label1.ForeColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(185, 61)
+        Me.Label1.Location = New System.Drawing.Point(185, 47)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(62, 21)
         Me.Label1.TabIndex = 10
@@ -143,7 +145,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.Desktop
-        Me.Label2.Location = New System.Drawing.Point(189, 117)
+        Me.Label2.Location = New System.Drawing.Point(189, 103)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(61, 21)
         Me.Label2.TabIndex = 11
@@ -154,7 +156,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.Desktop
         Me.Label3.Font = New System.Drawing.Font("Segoe Print", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(189, 158)
+        Me.Label3.Location = New System.Drawing.Point(189, 144)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(138, 21)
         Me.Label3.TabIndex = 12
@@ -164,18 +166,21 @@ Partial Class Form1
         '
         Me.AgregarDatos.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.AgregarDatos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.AgregarDatos.Location = New System.Drawing.Point(177, 311)
+        Me.AgregarDatos.Image = CType(resources.GetObject("AgregarDatos.Image"), System.Drawing.Image)
+        Me.AgregarDatos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.AgregarDatos.Location = New System.Drawing.Point(320, 307)
         Me.AgregarDatos.Name = "AgregarDatos"
-        Me.AgregarDatos.Size = New System.Drawing.Size(340, 46)
+        Me.AgregarDatos.Size = New System.Drawing.Size(104, 46)
         Me.AgregarDatos.TabIndex = 13
         Me.AgregarDatos.Text = "Agregar"
+        Me.AgregarDatos.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.AgregarDatos.UseVisualStyleBackColor = False
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.Desktop
-        Me.Label4.Location = New System.Drawing.Point(195, 232)
+        Me.Label4.Location = New System.Drawing.Point(195, 218)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(47, 21)
         Me.Label4.TabIndex = 14
@@ -183,50 +188,50 @@ Partial Class Form1
         '
         'DataGridView1
         '
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Apellido, Me.Nombre, Me.FechaNacimiento, Me.Sexo, Me.Eliminar, Me.Saldo, Me.Imagen, Me.Ruta})
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.DataGridView1.Location = New System.Drawing.Point(88, 397)
+        Me.DataGridView1.Location = New System.Drawing.Point(92, 372)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(684, 150)
+        Me.DataGridView1.Size = New System.Drawing.Size(675, 150)
         Me.DataGridView1.TabIndex = 15
         '
         'Apellido
         '
-        Me.Apellido.HeaderText = "Column1"
+        Me.Apellido.HeaderText = "Apellido"
         Me.Apellido.Name = "Apellido"
         Me.Apellido.Width = 80
         '
         'Nombre
         '
-        Me.Nombre.HeaderText = "Column2"
+        Me.Nombre.HeaderText = "Nombre"
         Me.Nombre.Name = "Nombre"
         Me.Nombre.Width = 80
         '
         'FechaNacimiento
         '
-        Me.FechaNacimiento.HeaderText = "Column3"
+        Me.FechaNacimiento.HeaderText = "Fecha Nacimiento"
         Me.FechaNacimiento.Name = "FechaNacimiento"
         Me.FechaNacimiento.Width = 80
         '
         'Sexo
         '
-        Me.Sexo.HeaderText = "Column4"
+        Me.Sexo.HeaderText = "Sexo"
         Me.Sexo.Name = "Sexo"
         Me.Sexo.Width = 80
         '
         'Eliminar
         '
-        Me.Eliminar.HeaderText = "Column5"
+        Me.Eliminar.HeaderText = "Eliminar"
         Me.Eliminar.Name = "Eliminar"
         Me.Eliminar.Width = 80
         '
         'Saldo
         '
-        Me.Saldo.HeaderText = "Column6"
+        Me.Saldo.HeaderText = "Saldo"
         Me.Saldo.Name = "Saldo"
         Me.Saldo.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Saldo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
@@ -234,19 +239,19 @@ Partial Class Form1
         '
         'Imagen
         '
-        Me.Imagen.HeaderText = "Imagen"
+        Me.Imagen.HeaderText = "Foto"
         Me.Imagen.Name = "Imagen"
         Me.Imagen.Width = 70
         '
         'Ruta
         '
-        Me.Ruta.HeaderText = "Column8"
+        Me.Ruta.HeaderText = "Ruta"
         Me.Ruta.Name = "Ruta"
         Me.Ruta.Width = 80
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(570, 93)
+        Me.PictureBox1.Location = New System.Drawing.Point(570, 79)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(174, 243)
         Me.PictureBox1.TabIndex = 16
@@ -255,7 +260,7 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Panel1.Location = New System.Drawing.Point(560, 85)
+        Me.Panel1.Location = New System.Drawing.Point(560, 71)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(193, 260)
         Me.Panel1.TabIndex = 17
@@ -285,7 +290,7 @@ Partial Class Form1
         Me.ForeColor = System.Drawing.Color.Gainsboro
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Formulario con DataGrid"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -309,6 +314,7 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Panel1 As Panel
     Friend WithEvents Apellido As DataGridViewTextBoxColumn
     Friend WithEvents Nombre As DataGridViewTextBoxColumn
     Friend WithEvents FechaNacimiento As DataGridViewTextBoxColumn
@@ -317,5 +323,4 @@ Partial Class Form1
     Friend WithEvents Saldo As DataGridViewTextBoxColumn
     Friend WithEvents Imagen As DataGridViewImageColumn
     Friend WithEvents Ruta As DataGridViewTextBoxColumn
-    Friend WithEvents Panel1 As Panel
 End Class

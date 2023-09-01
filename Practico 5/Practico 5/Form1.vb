@@ -55,12 +55,11 @@ Public Class Form1
 
         If saldo < 50 Then
             DataGridView1.Rows(rowIndex).DefaultCellStyle.BackColor = Color.Red
-
         End If
 
-        DataGridView1.Rows(rowIndex).Height = 50 ' Cambiar esta altura según tus necesidades
+        DataGridView1.Rows(rowIndex).Height = 50
 
-        ' Agregar imagen redimensionada y centrada en la celda
+        ' Agrega imagen redimensionada y centrada en la celda
         If File.Exists(rutaImagen) Then
             DataGridView1.Rows(rowIndex).Cells("Imagen").Value = ResizeImage(Image.FromFile(rutaImagen), DataGridView1.Columns("Imagen").Width, DataGridView1.Rows(rowIndex).Height)
         End If
